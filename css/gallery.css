@@ -140,6 +140,18 @@
     margin-bottom: 0.2rem;
 }
 
+.description p {
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 1.5rem 0;
+}
+
+.description span {
+    color: #2cffff;
+    font-weight: 400;
+}
+
 .display .slideshow {
     width: 60%;
     height: 500px;
@@ -387,25 +399,20 @@
     }
 
     .gallery-main {
-        display: grid;
         grid-template-columns: repeat(1 ifr);
         grid-auto-rows: 100px 150px;
-        grid-gap: 0.5rem;
         margin-top: 6rem;
     }
 
     .gallery-main-1 {
-        display: grid;
-        grid-template-columns: repeat(4 ifr);
         grid-auto-rows: 150px 120px;
-        grid-gap: 0.5rem;
         margin-top: 6rem;
     }
+
 
     .gallery-main-2 {
         grid-template-columns: repeat(4 ifr);
         grid-auto-rows: 190px;
-        grid-gap: 0.5rem;
         margin-top: 6rem;
     }
 
@@ -430,12 +437,17 @@
         background-color: #0000008a;
     }
 
+           .header .header_text h5 {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
     .gallery-item i {
-        font=font-size: 1rem;
+        font-size: 1rem;
     }
 
     .gallery-item a {
-        font=font-size: 1rem;
+        font-size: 1rem;
     }
 
     .display {
@@ -462,6 +474,11 @@
     .display .details_1 p {
         margin-bottom: 1rem;
         font-size: 0.8rem;
+    }
+
+    .description p {
+        font-size: 0.7rem;
+        padding: 1rem 0;
     }
 
     .board .focus p {
